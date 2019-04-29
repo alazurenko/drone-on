@@ -1,7 +1,6 @@
 {
   "name": "drone-on",
   "version": "0.0.1",
-  "main": "index.js",
   "description": "Minimalist wrapper over DroneZone radio",
   "keywords": [
     "radio",
@@ -9,11 +8,11 @@
     "dronezone"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "serve app -p 3000"
   },
   "author": "Andrii Lazurenko <andrey.lazurenko@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "serve": "^5.1.5"
+    "serve": "^11.0.0"
   }
 }
